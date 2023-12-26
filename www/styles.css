@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Nav */
+        .navbar {
+        background-color: #50535C; /* Cambia el color de fondo */
+        border-radius: 10px;
+        margin-top: 1%;
+        padding: 2%
+        max-height: 80px;
+        height: auto;
+        overflow-y: hidden;
+      }
+       .navbar .navbar-brand {
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 27px;
+        color: #E7E7E7;
+        align-items: stretch;
+        align-content: center;
+        flex-direction: row;
+        position: relative;
+        height: 80px;
+        max-height: 80px;
+      }
+      .navbar .navbar-brand:hover {
+        color: #E7E7E7; /* Mantiene el mismo color de fuente en :hover */
+        text-decoration: none; /* Quita el subrayado en :hover */
+      }
+      
+      .navbar .nav > li > a {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 17px;
+        color: #E7E7E7;
+      }
+      .navbar .nav > li > a:hover {
+        color: #FFFFFF; 
+      }
+      .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+        color: #E7E7E7; 
+        background-color: transparent; 
+      }
+      .navbar .nav > li.active > a, .navbar .nav > li.active > a:focus, .navbar .nav > li.active > a:hover {
+        color: #BBBBBB;
+        background-color: transparent; 
+      }
+      .navbar .nav > li > a:focus, .navbar .nav > li > a:hover,
+      .navbar .nav .open > a, .navbar .nav .open > a:focus, .navbar .nav .open > a:hover {
+        color: #BBBBBB;
+        background-color: #50535C;
+        text-decoration: none;
+      }
+      .navbar .nav .dropdown-menu > li > a:focus, .navbar .nav .dropdown-menu > li > a:hover {
+        color: #E7E7E7;
+        background-color: transparent; 
+      }
+      .navbar .nav .dropdown-menu > li.active > a, .navbar .nav .dropdown-menu > li.active > a:focus, .navbar .nav .dropdown-menu > li.active > a:hover {
+        color: #E7E7E7;
+        background-color: transparent; 
+      }
+      
+      .logo {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.45cm; /* Ajusta la altura según sea necesario */
+      }
+      
+      .marca {
+       border-top: 1px solid #E7E7E7;
+       padding: 20px;
+       display: flex;
+       align-items: space-around;
+       margin: auto;
+       margin-top: 60px;
+       width: 90%;
+       height: auto;
+       max-width: 800px;
+      }
+      
+      .fuentes {
+       font-family: 'Encode Sans', sans-serif;
+       font-size: 16px;
+       color: #50535C;
+       margin: 15px 30px;
+      }
+      
+      .mapa {
+       width: auto;
+       max-width: 150px;
+       position: relative;
+      }
+      
+      .bullet {
+       font-family: 'Encode Sans', sans-serif;
+       font-size: 16px;
+       color: #50535C;
+       margin: 15px 0px;
+      }
+      
+/* Custom */     
+        .custom_tabpanel .nav-tabs > li > a {
+        border-radius: 4px;
+        font-family: 'Encode Sans', sans-serif;
+        font-size: 12.5px;
+        color: #50535C;
+        background-color: #E7E7E7;
+      }
+      
+      .custom_tabpanel .nav-tabs > li > a:hover
+      {
+        color: #E7E7E7;
+        background-color: #AAAAAA;
+      }
+      
+      .custom_tabpanel .nav-tabs .active > a,
+      .custom_tabpanel .nav-tabs .active > a:hover, 
+      .custom_tabpanel .nav-tabs .active > a:focus {
+        color: #E7E7E7;
+        background-color: #50535C;
+      }
+      
+      .selectize-input {
+        caret-color: transparent !important
+      }
+            
+      .paragraph {
+        margin-bottom: 6px;
+        margin: 15px 30px;
+        font-size: 16px;
+        color: #50535C;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+      }  
+      
+      .title {
+        margin: 25px 30px 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #37BBED;
+        font-family: 'Encode Sans', sans-serif;
+      }  
+      
+      .descarga {
+       margin-bottom: 12px;
+       width: 20px;
+       height: auto;
+       position: relative;
+       left: 80%;
+       
+      }  
+      
+
+  @media (max-width: 991.98px) {
+    .navbar .navbar-brand {
+      font-size: 28px;
+    }
+  }
+
+@media (max-width: 767.98px) {
+  .navbar .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+
+
+        
+/*afecta todos las tablas DT*/        
+        
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px;
+    background-color: white!important;
+    color: #50535C!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+style attribute {
+    font-family: 'Roboto', sans-serif!important;
+    font-size: 21px!important;
+}
+
+/*esto es para cambiar el tamaño del espacio en el primer grafico de la pagina de cuota de mercado*/  
+
+#cuotademercado_grafico2 {
+  width: 100%;
+  height: 270px!important;
+  /* Añadir más reglas de estilo según sea necesario  height: 800px!important;*/
+}
+
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+    color: #fff;
+    background-color: #50535C;
+   
+}
+
+
+      
+.narrow-table-container .dataTables_wrapper {
+        width: 50%;
+      }
+

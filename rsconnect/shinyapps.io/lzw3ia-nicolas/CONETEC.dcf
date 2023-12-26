@@ -1,0 +1,12 @@
+name: CONETEC
+title: CONETEC
+username: lzw3ia-nicolas
+account: lzw3ia-nicolas
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10740748
+bundleId: 8083492
+url: https://lzw3ia-nicolas.shinyapps.io/CONETEC/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

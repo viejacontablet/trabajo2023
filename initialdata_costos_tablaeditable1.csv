@@ -1,0 +1,12 @@
+"Tratamientos","Mg por unidad","Número de unidades por presentación","Costo por presentación (PVP)","Descuento individual","Mg por dosis","Dosis por mes","% Adherencia"
+"Avelumab",200,1,721648.1,0,800,2,100
+"Axitinib",5,56,2024341.13,0,10,30,100
+"Cabozantinib",40,30,1156370.75,0,40,30,100
+"Ipilimumab",50,1,2648404.75,0,100,0.66,100
+"Lenvatinib",10,30,1338085.95,0,20,28,100
+"Nivolumab",240,1,3228901.64,0,480,1,100
+"Nivolumab",40,1,538134.06,0,80,1.33,100
+"Pazopanib",400,30,762556.5,0,800,30,100
+"Pembrolizumab",100,2,4846281.93,0,200,1.33,100
+"Sunitinib",50,28,1915548.31,0,50,28,100
+"Everolimus",10,30,2463477.14,0,10,30,100
